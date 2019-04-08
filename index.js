@@ -11,6 +11,6 @@ function takeANumber(theLine, theName){
       return "Currently serving " + theLine.shift()
     }
     else{
-      "There is nobody waiting to be served!"
+      return  "There is nobody waiting to be served!"
     }
   }
