@@ -22,7 +22,8 @@ function takeANumber(theLine, theName){
     }
     else{
       for(let i=0;i<theLine.length;i++){
-        stmtNew+=`${i+1}. ${theLine[i]}${theLine.length-1!==}`
+        stmtNew+=`${i+1}. ${theLine[i]}${theLine.length-1!==i?",":""}`
       }
     }
+    return stmtNew
   }
