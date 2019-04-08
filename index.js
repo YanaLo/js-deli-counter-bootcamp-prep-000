@@ -8,7 +8,7 @@ function takeANumber(theLine, theName){
     // then removes them from that line
     // if nobody in line return the message
     if(Array.isArray(theLine) && theLine.length>0){
-      return "Currently serving " + theLine.shift()
+      return "Currently serving " + theLine.shift() + "."
     }
     else{
       return  "There is nobody waiting to be served!"
