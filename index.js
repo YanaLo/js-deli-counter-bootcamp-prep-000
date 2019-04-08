@@ -7,5 +7,7 @@ function takeANumber(theLine, theName){
     // returns the first person in laine
     // then removes them from that line
     // if nobody in line return the message
-    if(Array.isArray(theLine) && theLine.length>)
+    if(Array.isArray(theLine) && theLine.length>0){
+      return 
+    }
   }
