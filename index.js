@@ -16,5 +16,12 @@ function takeANumber(theLine, theName){
   }
   
   function currentLine(theLine){
-    
+    if(!theLine.length){
+      return "The line is currently empty."
+    }
+    else{
+      for(let i=0;i<theLine.length;i++){
+        
+      }
+    }
   }
